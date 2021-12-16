@@ -1,0 +1,33 @@
+{
+  "name": "litz-musicbot",
+  "version": "1.0.0",
+  "description": "Music bot that uses Lavalink for its audio player.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devPhytols/litz-lavalink.git"
+  },
+  "author": "devPhytols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devPhytols/litz-lavalink/issues"
+  },
+  "homepage": "https://github.com/devPhytols/litz-lavalink#readme",
+  "dependencies": {
+    "@lavacord/discord.js": "0.0.7",
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.3",
+    "discord.js-buttons": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lavasfy": "^2.2.1",
+    "node-fetch": "^2.6.1",
+    "pretty-ms": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0"
+  }
+}
